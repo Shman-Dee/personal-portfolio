@@ -29,3 +29,31 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+footer {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  background-color: peru;
+  color: rgb(22, 119, 209);
+  justify-content: space-between;
+  min-width: 600px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
+  font-size: 100%;
+}
+
+h3 {
+  font-size: 200%;
+}
