@@ -3,8 +3,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   line-height: 1.3;
   background-color: #e3e3eb;
 }
@@ -36,9 +34,6 @@ nav a {
 }
 
 main {
-  display: flex;
-  flex-flow: column;
-  flex: 1 1 0;
   max-width: 1200px;
   margin: 2% auto;
 }
@@ -58,8 +53,7 @@ main {
 }
 
 .about-me p,
-.myWork p,
-.smallBox ul li {
+.myWork p {
   font-size: 1.5em;
   padding-left: 0.5em;
   padding-top: 0.5em;
@@ -79,11 +73,10 @@ main {
   align-items: flex-start;
   flex-direction: row;
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .bigBox {
-  display: flex;
-  justify-content: center;
   max-width: 30em;
   left: 0px;
   border: skyblue solid 5px;
@@ -101,9 +94,32 @@ main {
   flex-flow: column;
 }
 
+.smallBox ul li {
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  border-top: skyblue solid 5px;
+  margin-top: 0.15em;
+}
+
 .smallBox li {
   padding: 4em;
   margin: 2em;
+}
+
+.project1,
+.project2,
+.project3 {
+  max-width: 50%;
+  position: relative;
+}
+
+.smallBox .titlebox {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  background-color: black;
+  color: white;
 }
 
 footer {
@@ -116,16 +132,17 @@ footer {
   min-width: 600px;
 }
 
+footer section {
+  font-size: 200%;
+}
+
 footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   min-width: 600px;
   font-size: 100%;
 }
-footer ul li {
+footer a {
   margin-right: 2em;
-}
-
-h3 {
-  font-size: 200%;
+  color: rgb(22, 119, 209);
 }
