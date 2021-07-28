@@ -15,58 +15,64 @@
       <h1>Andy McInally</h1>
       <nav>
         <ul>
-          <li><a href="#" target="_blank">about.</a></li>
-          <li><a href="#" target="_blank">work.</a></li>
-          <li><a href="#" target="_blank">contact.</a></li>
+          <li><a href="#about-me"> about.</a></li>
+          <li><a href="#myWork"> work.</a></li>
+          <li><a href="#contact"> contact.</a></li>
         </ul>
       </nav>
     </header>
-    <main class="content">
+    <main>
       <section id="about-me" class="about-me">
+        <!-- picture of me nested top left center -->
         <img src="./assets/images/bolo_selfie.png" class="bolo" alt="selfie" />
-        <h2>About Me</h2>
+        <!-- about me section located adjacent to my selfie in bolo tie -->
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ullam
-          facilis nemo quae ut perspiciatis neque. Nihil ea fugit explicabo hic
-          excepturi. Nostrum culpa molestias id earum libero cumque deleniti.
+          I spent most of my childhood gaming between consoles and computers.
+          For most of my middle life I lost touch with a computer, but stayed
+          very involved in the gaming community. While gaming in 2013 I came in
+          contact with todays leading cryptocurrency, Bitcoin. This has kept a
+          constant flame going for a desire to get back into computers.
+          Bartending was a passion for many many years, but I decided to put
+          down the bottles and take a leap into web development in 2021.
         </p>
+        <p>About Me</p>
       </section>
-      <section id="bigBox" class="bigBox">
-        <img src="blank" class="" alt="blank" />
-        <h2>My Work</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          expedita quae labore. Consectetur omnis debitis officiis cupiditate,
-          placeat, animi minus quidem ipsam natus ex rerum quo culpa blanditiis,
-          enim quia?
-        </p>
+      <!-- first project produced in a large box below selfie and about me section -->
+      <section id="myWork" class="myWork">
+        <img
+          src="./assets/images/bitcoinLogo.jpeg"
+          class="bigBox"
+          alt="bitcoin logo"
+        />
+
+        <p>My Work</p>
       </section>
-      <section id="smallBox" class="smallBox">
-        <img src="blank" class="" alt="blank" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam
-          quaerat minus! Animi perferendis adipisci possimus exercitationem,
-          numquam consequuntur perspiciatis.
-        </p>
+      <section>
+        <!-- More projects with smaller boxes. A descriptive box will be placed horizotally from the image/link to project. Odd numbered small projects will have images on the right and even's images on the left. The projects will be listed horizontally. -->
+
+        <section class="smallBox">
+          <ul>
+            <li>project1</li>
+            <li>project2</li>
+            <li>project3</li>
+          </ul>
+        </section>
       </section>
     </main>
-
+    <!-- Footer with multiple ways to contact me -->
     <footer>
       <h3>Contact Info</h3>
-      <ul class="footer">
-        <li>direct. <a href="#">(805)216-1550 </a></li>
-        <li>email. <a href="#">ihaveandybodies@gmail.com</a></li>
+      <ul class="footer" id="contact">
+        <li><a href="tel:805-216-1550">direct.</a></li>
         <li>
-          social.
-          <a
-            href="https://www.linkedin.com/in/andrew-mcinally-785039217/"
-            target="_blank"
-            >linkedin.</a
-          >
+          <a href="mailto: ihaveandybodies@gmail.com">email.</a>
         </li>
         <li>
-          work.
-          <a href="https://github.com/Shman-Dee" target="_blank">github.</a>
+          <a href="https://www.linkedin.com/in/andrew-mcinally-785039217/"
+            >linkedin.
+          </a>
+
+          <a href="https://github.com/Shman-Dee">github.</a>
         </li>
       </ul>
     </footer>
