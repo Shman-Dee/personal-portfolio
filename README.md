@@ -20,3 +20,7 @@ Here is an idea of the process I took.
 ![Top screenshot](./assets/images/top-half-personal-profile.png)
 
 ![Bottom screenshot](./assets/images/bottom-half-personal-profile.png)
+
+Deplyed site:
+
+https://shman-dee.github.io/personal-portfolio/
